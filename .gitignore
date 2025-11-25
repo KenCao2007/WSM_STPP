@@ -1,0 +1,10 @@
+ModelSave/
+locations.png
+scripts/table/logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
