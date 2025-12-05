@@ -1,17 +1,41 @@
-code for Score Matching for Estimating Finite Point Processes
+Code for **"Score Matching for Estimating Finite Point Processes"**
 
-To reproduce table 3 in our paper, go to scripts/table and run e.g.
+---
 
+### Dataset
+
+Download the dataset from:  
+https://drive.google.com/drive/folders/1J6jLIxNn5LRQCghv24wzOGHWZ6V0_0Jr?usp=sharing
+
+---
+
+### Reproducing Results
+
+**Table 3**
+
+To reproduce Table 3 in our paper, go to `scripts/table` and run, for example:
+
+```bash
 bash run.sh --seeds 1,2,3 --dataset "Earthquake" --estimator "wsm"
+```
 
-To reproduce Fig 2 in our paper, go to scripts/figure and run 
+**Figure 2**
+To reproduce Figure 2, go to scripts/figure and run:
+
+```bash
 bash Hawkes2_figure.sh
+```
 
-To reproduce Fig 3 in our paper, go to scriipts/figure and run
+**Figure 3**
+To reproduce Figure 3, go to scripts/figure and run:
+```bash 
 bash Earthquake_figure.sh
+```
 
+### Citation
 
-Cite the paper if you use this code
+If you find this code useful in your research, please consider citing our paper.
 
-
-We use the codebase from SMASH, we also adopt some plot and synthetic data generating code from AutoInt, and NSTPP
+### Acknowledgements
+This repository is built on top of the **SMASH** codebase.
+We also adapt plotting and synthetic data generation code from **AutoInt** and **NSTPP**.
